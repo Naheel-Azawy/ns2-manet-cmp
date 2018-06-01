@@ -15,7 +15,7 @@ set val(x)              1000                       ;# X dimension of topography
 set val(y)              1000                       ;# Y dimension of topography
 set val(stop)           200                        ;# time of simulation end
 
-set OUT_NAME "./tmp/${PROTO}_${NODES}"
+set OUT_NAME "${DIR_NAME}/${PROTO}_${NODES}"
 set ns            [new Simulator]
 set tracefd       [open "$OUT_NAME.tr" w]
 set namtrace      [open "$OUT_NAME.nam" w]
