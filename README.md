@@ -8,7 +8,7 @@
 
 ## Simulation
 ```sh
-./run.sh
+./run.sh <nodes_start> <nodes_step> <nodes_end> <tries>
 ```
 
 ## Results
