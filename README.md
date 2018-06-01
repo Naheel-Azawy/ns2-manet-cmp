@@ -12,4 +12,4 @@
 ```
 
 ## Results
-All results are under the `res` directory.
+All results are under the `out/*/res` directory.
